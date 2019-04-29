@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<AriaSave version="1844" productID="1014">
+    <Settings quality="1" streaming="32" maxStreamAllocMB="512" MIDIOutMode="1" automationSlot="0" automationlevel="instrument" liveMode="0" scala="01 - equal.scl" scalaCenter="60" globalTuning="0" />
+    <Slot id="0" name="Blackheart" bankId="2506" version="1000" channel="-1" poly="64" tuning="0" pb_range="-1" ptrans="0" mtrans="0" moctave="0"  mute="0">
+        <Main id="0" value="1" />
+        <Main id="1" value="0" />
+        <Main id="2" value="0" />
+        <Main id="3" value="0" />
+        <Main id="4" value="0" />
+        <Main id="5" value="0" />
+        <Main id="6" value="0" />
+        <Main id="7" value="0" />
+        <Main id="8" value="0" />
+        <Main id="9" value="0" />
+        <Main id="10" value="0" />
+        <Main id="11" value="0" />
+        <Main id="12" value="0" />
+        <Main id="13" value="0" />
+        <Main id="14" value="0" />
+        <Main id="15" value="0" />
+		<Param id="7" value="0.5" />
+        <Param id="80" value="1" />
+        <Param id="84" value="0.5737401843070984" />
+        <Param id="93" value="0.3550000190734863" />
+        <Param id="97" value="0.07696850597858429" />
+        <Param id="100" value="0.06499999761581421" />
+        <Param id="102" value="0.1250000149011612" />
+        <Param id="103" value="1" />
+        <Param id="107" value="0.04500000178813934" />
+        <Param id="108" value="0.02999999932944775" />
+        <Param id="131" value="0.2834645807743073" />
+    </Slot>
+    <EffectSlot id="0" name="Ambience" bankId="1014" version="1845" />
+    <GUI id="0" activeISlot="0" activeESlot="0" />
+</AriaSave>

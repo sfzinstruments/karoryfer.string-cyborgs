@@ -1,0 +1,166 @@
+<GUI w="775" h="335">
+ 
+	<!-- Background -->
+
+	<StaticImage x="1" y="1" w="773" h="333" image="ironface_controls_tab.png" transparent="0"  />
+	
+	<!-- Controls - Envelope first-->
+	
+	<StaticText x="9" y="10" w="100" h="20" text="ENVELOPE" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="9" y="27" w="100" h="18" text="Attack" color_text="#FFFFFFFF" transparent="1"   />
+	
+	<Knob param="80" x="42" y="50" image="Smallish_r.png" frames="128"  />
+
+	<StaticText x="59" y="27" w="100" h="18" text="Hold" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="81" x="92" y="50" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="109" y="27" w="100" h="18" text="Decay" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="82" x="142" y="50" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="159" y="27" w="100" h="18" text="Sustain" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="83" x="192" y="50" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="209" y="27" w="100" h="18" text="Release" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="84" x="242" y="50" image="Smallish_r.png" frames="128"   />
+
+        <!-- Voicing controls -->
+
+	<StaticText x="309" y="10" w="100" h="20" text="VOICING" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText                x="323"  y="27"  w="120" h="18"  text="Voice	"  font_size="Small" alignment="center" color_text="#FFFFFFFF" transparent="1"   />		
+	<OptionMenu    param="94"  x="338"  y="55"  w="90" h="18"  font_size="Small" alignment="center" color_text="#000000FF"  color_back="#ffffffcc" transparent="0"   >	
+		<OptionItem name="One"		    value="0.0" />
+		<OptionItem name="Three"		    value="0.3" />
+		<OptionItem name="Five"	    value="0.6" />	
+	</OptionMenu>	
+
+	<StaticText x="409" y="27" w="100" h="18" text="Detune" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="93" x="442" y="50" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="459" y="27" w="100" h="18" text="Width" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="95" x="492" y="50" image="Smallish_r.png" frames="128"   />
+
+	<StaticText                x="523"  y="27"  w="120" h="18"  text="Waveforms"  font_size="Small" alignment="center" color_text="#FFFFFFFF" transparent="1"   />		
+	<OptionMenu    param="92"  x="538"  y="55"  w="90" h="18"  font_size="Small" alignment="center" color_text="#000000FF"  color_back="#ffffffcc" transparent="0"   >	
+		<OptionItem name="Long"		    value="0.0" />
+		<OptionItem name="Single Cycle"    value="1.0" />	
+	</OptionMenu>
+
+	<!-- Vibrato controls -->
+
+	<!-- Vibrato controls -->
+
+	<StaticText x="6" y="90" w="100" h="20" text="VIBRATO" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="9" y="107" w="100" h="18" text="Pitch" color_text="#FFFFFFFF" transparent="1"   />
+	
+	<Knob param="96" x="42" y="130" image="Smallish_r.png" frames="128"  />
+
+	<StaticText x="59" y="107" w="100" h="18" text="Volume" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="100" x="92" y="130" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="109" y="107" w="100" h="18" text="Rate" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="97" x="142" y="130" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="159" y="107" w="100" h="18" text="Delay" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="98" x="192" y="130" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="209" y="107" w="100" h="18" text="Fade" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="99" x="242" y="130" image="Smallish_r.png" frames="128"   />
+
+	<!-- Humanize controls -->
+
+	<StaticText x="345" y="90" w="100" h="20" text="HUMANIZE" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="359" y="107" w="100" h="18" text="Change Rate" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="114" x="392" y="130" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="409" y="107" w="100" h="18" text="Pitch" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="115" x="442" y="130" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="459" y="107" w="100" h="18" text="Vibrato" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="116" x="492" y="130" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="509" y="107" w="100" h="18" text="Wobble" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="117" x="542" y="130" image="Smallish_r.png" frames="128"   />
+
+
+	<!-- Filter controls -->
+
+	<StaticText x="27" y="170" w="100" h="20" text="LOWPASS FILTER" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="9" y="187" w="100" h="18" text="Cutoff" color_text="#FFFFFFFF" transparent="1"   />
+	
+	<Knob param="102" x="42" y="210" image="Smallish_r.png" frames="128"  />
+
+	<StaticText x="59" y="187" w="100" h="18" text="Resonance" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="103" x="92" y="210" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="109" y="187" w="100" h="18" text="Pluck" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="104" x="142" y="210" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="159" y="187" w="100" h="18" text="P Attack" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="105" x="192" y="210" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="209" y="187" w="100" h="18" text="P Decay" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="106" x="242" y="210" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="259" y="187" w="100" h="18" text="Wobble" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="107" x="292" y="210" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="309" y="187" w="100" h="18" text="W Speed" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="108" x="342" y="210" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="359" y="187" w="100" h="18" text="W Delay" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="109" x="392" y="210" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="409" y="187" w="100" h="18" text="W Fade" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="110" x="442" y="210" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="459" y="187" w="100" h="18" text="Veltrack" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="111" x="492" y="210" image="Smallish_r.png" frames="128"   />
+
+        <!-- Highpass filter controls -->
+
+	<StaticText x="29" y="250" w="100" h="20" text="HIGHPASS FILTER" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="9" y="267" w="100" h="18" text="Cutoff" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="112" x="42" y="290" image="Smallish_r.png" frames="128"   />
+
+	<StaticText x="59" y="267" w="100" h="18" text="Resonance" color_text="#FFFFFFFF" transparent="1"  />
+
+	<Knob param="113" x="	92" y="290" image="Smallish_r.png" frames="128"   />
+        <!-- Distortion -->
+
+	<StaticText x="168" y="250" w="100" h="20" text="DISTORTION" color_text="#FFFFFFFF" transparent="1"  />
+
+	<StaticText x="159" y="267" w="100" h="18" text="Blend" color_text="#FFFFFFFF" transparent="1"   />
+
+	<Knob param="85" x="192" y="290" image="Smallish_r.png" frames="128"  />
+
+</GUI>                                                                                                                                       

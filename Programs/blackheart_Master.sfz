@@ -1,0 +1,40 @@
+//Blackheart
+//Karoryfer Samples
+
+<control>
+set_cc7=100
+set_cc10=64
+set_cc80=0  
+set_cc81=0 
+set_cc82=16
+set_cc83=127 
+set_cc84=10
+set_cc89=16
+set_cc90=127
+set_cc91=10
+set_cc94=79
+set_cc95=127
+set_cc97=32
+set_cc102=127
+set_cc108=32
+set_cc111=64
+
+#include "blackheart_midi_cc_setup.sfz"
+#include "blackheart_one_sc.sfz"
+#include "blackheart_three_sc.sfz"
+#include "blackheart_five_sc.sfz"
+#include "blackheart_one.sfz"
+#include "blackheart_three.sfz"
+#include "blackheart_five.sfz"
+#include "blackheart_noise.sfz"
+
+<curve>curve_index=8
+v000=0
+v032=0.03
+v064=0.1
+v096=0.5
+v127=1
+
+<curve>curve_index=10
+v000=1
+v127=0

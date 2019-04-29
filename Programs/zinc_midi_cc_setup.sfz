@@ -1,0 +1,113 @@
+<control>
+label_cc7=Master Vol
+label_cc10=Master Pan
+label_cc80=Attack  
+label_cc81=Hold  
+label_cc82=Decay  
+label_cc83=Sustain
+label_cc84=Release
+label_cc85=Bow Screech Vol
+label_cc86=Screech Env Select
+label_cc87=Screech Attack
+label_cc88=Screech Hold
+label_cc89=Screech Decay
+label_cc90=Screech Sustain
+label_cc91=Screech Release
+label_cc92=Single Cycle
+label_cc93=Detune
+label_cc94=Voices
+label_cc95=Width
+label_cc96=Vibrato Depth
+label_cc97=Vibrato Speed
+label_cc98=Vibrato Delay
+label_cc99=Vibrato Fade
+label_cc100=Tremolo
+label_cc101=Vibrato Screech
+label_cc102=Cutoff
+label_cc103=Resonance
+label_cc104=Pluck Depth
+label_cc105=Pluck Attack
+label_cc106=Pluck Decay
+label_cc107=Wobble Depth
+label_cc108=Wobble Speed
+label_cc109=Wobble Delay
+label_cc110=Wobble Fade
+label_cc111=Lowpass Veltrack
+label_cc112=Highpass Cutoff
+label_cc113=Highpass Reso
+label_cc114=Humanize Rate
+label_cc115=Humanize Pitch
+label_cc116=Humanize Vibrato
+label_cc117=Humanize Wobble
+label_cc118=Humanize Screech
+label_cc119=Voice Shiftiness
+
+<global>
+amplitude_oncc7=100
+pan=-100
+pan_oncc10=200
+
+//AHDSR envelope - the bow screech mapping file also has a separate one for that
+ampeg_attack=0.001
+ampeg_sustain=0
+ampeg_release=0.001
+ampeg_attack_oncc80=0.5 
+ampeg_hold_oncc81=2 
+ampeg_decay_oncc82=10
+ampeg_sustain_oncc83=100
+ampeg_release_oncc84=5
+
+//Vibrato LFO
+lfo01_pitch_oncc96=20
+lfo01_freq_oncc97=10
+lfo01_delay_oncc98=0.3
+lfo01_fade_oncc99=0.5
+lfo01_volume_oncc100=12 //Also does tremolo - see bow screech file for that part
+
+//Lowpass filter
+cutoff=220
+cutoff_cc102=9600
+fil_keytrack=100
+resonance=0
+resonance_cc103=24
+var01_cutoff=4800 //Velocity track
+var01_mod=mult
+var01_oncc131=1
+var01_oncc111=1
+
+//Pluck envelope
+fileg_depth=0
+fileg_depthcc104=7900
+fileg_sustain=0
+fileg_attack=0
+fileg_attackcc105=0.5
+fileg_decay=0.001
+fileg_decaycc106=2
+
+//Filter cutoff wobble LFO
+lfo02_cutoff=0
+lfo02_cutoff_oncc107=3600
+lfo02_freq_oncc108=10
+lfo02_delay_oncc109=0.3
+lfo02_fade_oncc110=0.5
+
+//Highpass filter
+fil2_type=hpf_2p
+fil2_keytrack=100
+cutoff2=3600
+cutoff2_cc112=-6000
+cutoff2_curvecc112=10
+resonance2=0
+resonance2_cc113=24
+
+lfo03_wave=1 //Random phase sine LFO to humanize the other LFOs a bit, also affects screech noise - see screech noise mapping file
+lfo03_phase=0
+lfo03_phase_oncc135=1 //Random
+lfo03_freq=0.01
+lfo03_freq_oncc114=1 //This one has its own rate indepedent of the other two
+lfo3_freq_lfo1_oncc116=1 //Affecting vibrato speed
+lfo3_freq_lfo2_oncc117=1 //Affecting wobble speed
+lfo3_pitch_oncc115=6 //And some pitch drifting around
+
+bend_up=1200
+bend_down=-1200

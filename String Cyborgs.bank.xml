@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Key>53EC6D69EEDA59F6E63501A064C1970AEBEC0BB92458E1E0074290A01FE46E3F9B6C358CE11029215F69C396E3F8426E37F0A4D04AFCD7893D8995F1A90FA248065D441E8D70E8AE9E42B57306BE61F5B0EFDBB6698C5CCCD36D6C8739272F9D862A9A7D42FFC3EA6B00116C19D4EFB3FFC6C2D83D702C5B0E7FC9070F8752437E2A71B54CAE21DCE294FF611EEE93C75FFCD986F3D4B4866B65316469391B3E1E90AE70EFC40EF095402EC31C18F27070AE6FADC583C63B728F0C73DF9F2D8EA321FC5421F207D0A15F4B728DC8CE3DF34B393A310D30F15AAB1C4F4EAB6FAD633A6F84DA74F286E4D1D19B3B4482AB0464EEA56D9CAB5D95D629A229DE32D8</Key>
+<AriaBank id="2506" name="String Cyborgs" vendor="Karoryfer" product="String Cyborgs" version="1000" >
+
+	<Define name="$sample_dir" value="../Samples"/>
+	
+	<!-- branding for Aria Player and sforzando UIs -->
+	<AriaGUI path="GUI/aria_info.xml"  target="*ARIA_INFO" />	
+ 
+	<AriaProgram  name="Zinc" 				gui="GUI/Zinc.xml" >			<AriaElement  path="Programs/Zinc.sfz"/>			</AriaProgram>
+	<AriaProgram  name="Blackheart"			gui="GUI/Blackheart.xml" >		<AriaElement  path="Programs/Blackheart.sfz"/>		</AriaProgram>
+	<AriaProgram  name="Ironface"			gui="GUI/Ironface.xml" >		<AriaElement  path="Programs/Ironface.sfz"/>		</AriaProgram>
+
+</AriaBank>

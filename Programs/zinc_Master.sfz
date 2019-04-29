@@ -1,0 +1,49 @@
+//Zinc
+//Karoryfer Samples
+
+<control>
+set_cc7=100
+set_cc10=64
+set_cc80=0  
+set_cc81=0 
+set_cc82=16
+set_cc83=127 
+set_cc84=10
+set_cc89=16
+set_cc90=127
+set_cc91=10
+set_cc94=79
+set_cc95=127
+set_cc97=32
+set_cc102=127
+set_cc108=32
+set_cc111=64
+set_cc119=127
+
+#include "zinc_midi_cc_setup.sfz"
+#include "zinc_one_voice.sfz"
+#include "zinc_three_voice_one_shift.sfz"
+#include "zinc_three_voice_two_shift.sfz"
+#include "zinc_three_voice_three_shift.sfz"
+#include "zinc_five_voice_one_shift.sfz"
+#include "zinc_five_voice_two_shift.sfz"
+#include "zinc_five_voice_three_shift.sfz"
+#include "zinc_one_voice_sc.sfz"
+#include "zinc_three_voice_one_shift_sc.sfz"
+#include "zinc_three_voice_two_shift_sc.sfz"
+#include "zinc_three_voice_three_shift_sc.sfz"
+#include "zinc_five_voice_one_shift_sc.sfz"
+#include "zinc_five_voice_two_shift_sc.sfz"
+#include "zinc_five_voice_three_shift_sc.sfz"
+#include "zinc_noise.sfz"
+
+<curve>curve_index=8
+v000=0
+v032=0.03
+v064=0.1
+v096=0.5
+v127=1
+
+<curve>curve_index=10
+v000=1
+v127=0
