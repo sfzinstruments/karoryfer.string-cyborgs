@@ -1,4 +1,6 @@
-String Cyborgs is a sample library for Plogue Sforzando version 1.848 or newer. It contains samples of an alto saxophone.
+String Cyborgs is a sample library for Plogue Sforzando version 1.848 or newer. It contains samples of bowed strings used as oscillators in a subtractive synthesizer architecture.
+
+This instrument is open source, and you can do whatever you want with it; however, the XML bank contains a digital signature, and editing the XML bank will break the ability of Plogue Sforzando to load the instrument with the GUI.
 
 To register, drag the String Cyborgs.bank.xml file onto the Sforzando interface. Once registered, the instruments will be available in the Sforzando loading menu and the GUI and presets will work.
 
